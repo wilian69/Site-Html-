@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Vídeos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 20px auto;
+            max-width: 1200px;
+        }
+        .video-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin: 15px;
+            width: 300px;
+            overflow: hidden;
+        }
+        .video-card img {
+            width: 100%;
+            height: auto;
+        }
+        .video-card h3 {
+            padding: 10px;
+            margin: 0;
+            font-size: 18px;
+        }
+        .video-card p {
+            padding: 0 10px 10px 10px;
+            font-size: 14px;
+            color: #555;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Catálogo de Vídeos</h1>
+</header>
+
+<div class="container">
+    <div class="video-card">
+        <img src="video1-thumbnail.jpg" alt="Thumbnail do Vídeo 1">
+        <h3>Título do Vídeo 1</h3>
+        <p>Descrição breve sobre o conteúdo do vídeo 1.</p>
+    </div>
+
+    <div class="video-card">
+        <img src="video2-thumbnail.jpg" alt="Thumbnail do Vídeo 2">
+        <h3>Título do Vídeo 2</h3>
+        <p>Descrição breve sobre o conteúdo do vídeo 2.</p>
+    </div>
+
+    <div class="video-card">
+        <img src="video3-thumbnail.jpg" alt="Thumbnail do Vídeo 3">
+        <h3>Título do Vídeo 3</h3>
+        <p>Descrição breve sobre o conteúdo do vídeo 3.</p>
+    </div>
+
+    <!-- Adicione mais vídeos conforme necessário -->
+</div>
+
+<footer>
+    <p>&copy; 2024 Catálogo de Vídeos. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
